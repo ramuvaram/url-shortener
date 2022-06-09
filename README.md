@@ -19,6 +19,13 @@ The following guides illustrate how to use some features concretely:
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
 
 
+Apporach to implement URL shortener:
+
+Different ways are available. I have used spring boot application to generate shorten URL. I have generated shorten url in 2 ways.
+1. Used hashmap to generate shorten url. For basic understanding I have used this approach.
+2. Used Database to store URL information. In my case I have used h2 database. We can use any database as storage device. Installed h2 database in my local and configured data base information in application.properties file. Created controller, service , model and repository classes in order to generate shorten urls.
+
+
 Steps to run spring boot application:
 
 1. Run spring boot application
